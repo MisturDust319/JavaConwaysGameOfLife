@@ -21,6 +21,7 @@ public class Board<T> implements Draw {
 		board = (T[][]) new Object [aWidth][aLength];
 	}
 	
+	//display the contents of the board
 	public void draw() {
 		for(int i = 0; i < this.length; i++) {
 			for(int j = 0; j < this.length; j++) {
@@ -28,4 +29,10 @@ public class Board<T> implements Draw {
 			}
 		}
 	}
+	
+	//getters
+	//get the width
+	public int getWidth() { return width; }
+	//get the length
+	public int getLength() { return length; }
 }
