@@ -4,7 +4,7 @@ package board;
 import draw.Draw;
 
 public class Board<T> implements Draw {
-	private T[][] board;
+	protected T[][] board;
 	private int length, width;
 	
 	//default constructor
