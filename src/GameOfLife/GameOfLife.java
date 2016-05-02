@@ -1,8 +1,6 @@
 
 package GameOfLife;
 
-import GameOfLife.GameOfLifeBoard;
-
 public class GameOfLife {
 
 	public static void main(String[] args) {

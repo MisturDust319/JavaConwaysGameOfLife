@@ -1,9 +1,10 @@
 //create a generic board object
 package board;
 
+import GameOfLife.LifeNode;
 import draw.Draw;
 
-public class Board<T> implements Draw {
+class Board<T> implements Draw {
 	protected T[][] board;
 	private int length, width;
 	
